@@ -1,0 +1,14 @@
+{
+  "name": "jarvis-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram com memória persistente usando Claude API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.36.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "dotenv": "^16.4.5"
+  }
+}
